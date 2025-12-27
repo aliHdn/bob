@@ -48,7 +48,6 @@ public class MainActivity3 extends AppCompatActivity {
             c.phoneNumber = Integer.parseInt(tvpn.getText().toString());
             c.firstName = tvfn.getText().toString();
             c.lastName = tvln.getText().toString();
-            c.lastName = tvln.getText().toString();
 
             MainActivity.db.contactDao().updateContact(c);
             finish();
