@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="first name"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/fne"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:hint="last name"
+        android:id="@+id/lne"
+        android:layout_marginTop="40dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:hint="phone number"
+        android:id="@+id/pne"
+        android:layout_marginTop="40dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Contact"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="40dp"
+        android:onClick="editbtn"
+        />
+  </LinearLayout>

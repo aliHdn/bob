@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lab</string>
+    <string name="title_home">Home</string>
+    <string name="title_setting">setting</string>
+    <string-array name="colors">
+        <item>red</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>yellow</item>
+    </string-array>
+</resources>
